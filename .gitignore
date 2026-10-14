@@ -1,0 +1,47 @@
+# Зависимости
+node_modules/
+.pnp
+.pnp.js
+
+# Сборка
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Окружение и секреты
+.env
+.env.*
+!.env.example
+
+# Базы данных (локальные копии)
+*.db
+*.sqlite
+*.sqlite3
+
+# Загруженные пользователями файлы
+uploads/
+public/uploads/
+
+# Логи и отчёты
+*.log
+npm-debug.log*
+yarn-error.log*
+coverage/
+
+# Ключи и сертификаты
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
